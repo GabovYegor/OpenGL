@@ -7,14 +7,10 @@
 #IncludeRegexTransform: 
 
 /home/egor/Documents/OpenGL/setUpOpenGL/openGL.cpp
-stdio.h
--
-stdlib.h
+iostream
 -
 GL/glew.h
 -
 GLFW/glfw3.h
--
-glm/glm.hpp
 -
 
