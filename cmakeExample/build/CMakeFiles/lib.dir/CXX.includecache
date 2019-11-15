@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/egor/Documents/OpenGL/test_1/dir/helloworld.cpp
+helloworld.h
+/home/egor/Documents/OpenGL/test_1/dir/helloworld.h
+iostream
+-
+
+/home/egor/Documents/OpenGL/test_1/dir/helloworld.h
+
