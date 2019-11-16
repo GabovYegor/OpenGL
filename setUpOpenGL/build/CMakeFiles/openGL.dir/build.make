@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/egor/Documents/OpenGL/setUpOpenGL
+CMAKE_SOURCE_DIR = /home/egor/Documents/OpenGL/test_2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/egor/Documents/OpenGL/setUpOpenGL/build
@@ -58,17 +58,17 @@ include CMakeFiles/openGL.dir/progress.make
 include CMakeFiles/openGL.dir/flags.make
 
 CMakeFiles/openGL.dir/openGL.cpp.o: CMakeFiles/openGL.dir/flags.make
-CMakeFiles/openGL.dir/openGL.cpp.o: ../openGL.cpp
+CMakeFiles/openGL.dir/openGL.cpp.o: /home/egor/Documents/OpenGL/test_2/openGL.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egor/Documents/OpenGL/setUpOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/openGL.dir/openGL.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openGL.dir/openGL.cpp.o -c /home/egor/Documents/OpenGL/setUpOpenGL/openGL.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openGL.dir/openGL.cpp.o -c /home/egor/Documents/OpenGL/test_2/openGL.cpp
 
 CMakeFiles/openGL.dir/openGL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openGL.dir/openGL.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egor/Documents/OpenGL/setUpOpenGL/openGL.cpp > CMakeFiles/openGL.dir/openGL.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egor/Documents/OpenGL/test_2/openGL.cpp > CMakeFiles/openGL.dir/openGL.cpp.i
 
 CMakeFiles/openGL.dir/openGL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openGL.dir/openGL.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egor/Documents/OpenGL/setUpOpenGL/openGL.cpp -o CMakeFiles/openGL.dir/openGL.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egor/Documents/OpenGL/test_2/openGL.cpp -o CMakeFiles/openGL.dir/openGL.cpp.s
 
 CMakeFiles/openGL.dir/openGL.cpp.o.requires:
 
@@ -108,6 +108,6 @@ CMakeFiles/openGL.dir/clean:
 .PHONY : CMakeFiles/openGL.dir/clean
 
 CMakeFiles/openGL.dir/depend:
-	cd /home/egor/Documents/OpenGL/setUpOpenGL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/egor/Documents/OpenGL/setUpOpenGL /home/egor/Documents/OpenGL/setUpOpenGL /home/egor/Documents/OpenGL/setUpOpenGL/build /home/egor/Documents/OpenGL/setUpOpenGL/build /home/egor/Documents/OpenGL/setUpOpenGL/build/CMakeFiles/openGL.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/egor/Documents/OpenGL/setUpOpenGL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/egor/Documents/OpenGL/test_2 /home/egor/Documents/OpenGL/test_2 /home/egor/Documents/OpenGL/setUpOpenGL/build /home/egor/Documents/OpenGL/setUpOpenGL/build /home/egor/Documents/OpenGL/setUpOpenGL/build/CMakeFiles/openGL.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openGL.dir/depend
 

@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/egor/Documents/OpenGL/setUpOpenGL
+CMAKE_SOURCE_DIR = /home/egor/Documents/OpenGL/test_2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/egor/Documents/OpenGL/setUpOpenGL/build

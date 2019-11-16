@@ -1,4 +1,4 @@
-# Install script for directory: /home/egor/Documents/OpenGL/setUpOpenGL
+# Install script for directory: /home/egor/Documents/OpenGL/test_2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

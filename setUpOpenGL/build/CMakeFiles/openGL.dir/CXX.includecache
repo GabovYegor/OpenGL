@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/egor/Documents/OpenGL/setUpOpenGL/openGL.cpp
+/home/egor/Documents/OpenGL/test_2/openGL.cpp
 iostream
 -
 GL/glew.h

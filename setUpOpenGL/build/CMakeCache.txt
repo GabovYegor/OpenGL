@@ -184,26 +184,14 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=/home/egor/Documents/OpenGL/setUpOpenGL/build
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/home/egor/Documents/OpenGL/setUpOpenGL
-
 //No help, variable specified on the command line.
 QT_QMAKE_EXECUTABLE:STRING=
-
-//Value Computed by CMake
-Try_BINARY_DIR:STATIC=/home/egor/Documents/OpenGL/setUpOpenGL/build
-
-//Value Computed by CMake
-Try_SOURCE_DIR:STATIC=/home/egor/Documents/OpenGL/setUpOpenGL
 
 //Value Computed by CMake
 Try_setUP_OpenGL_BINARY_DIR:STATIC=/home/egor/Documents/OpenGL/setUpOpenGL/build
 
 //Value Computed by CMake
-Try_setUP_OpenGL_SOURCE_DIR:STATIC=/home/egor/Documents/OpenGL/setUpOpenGL
+Try_setUP_OpenGL_SOURCE_DIR:STATIC=/home/egor/Documents/OpenGL/test_2
 
 
 ########################
@@ -284,7 +272,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/egor/Documents/OpenGL/setUpOpenGL
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/egor/Documents/OpenGL/test_2
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
