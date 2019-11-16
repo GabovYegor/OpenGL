@@ -133,7 +133,7 @@ CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 CMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Try_setUP_OpenGL
+CMAKE_PROJECT_NAME:STATIC=test_2
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -192,6 +192,12 @@ Try_setUP_OpenGL_BINARY_DIR:STATIC=/home/egor/Documents/OpenGL/setUpOpenGL/build
 
 //Value Computed by CMake
 Try_setUP_OpenGL_SOURCE_DIR:STATIC=/home/egor/Documents/OpenGL/test_2
+
+//Value Computed by CMake
+test_2_BINARY_DIR:STATIC=/home/egor/Documents/OpenGL/setUpOpenGL/build
+
+//Value Computed by CMake
+test_2_SOURCE_DIR:STATIC=/home/egor/Documents/OpenGL/test_2
 
 
 ########################

@@ -9,4 +9,8 @@
 /home/egor/Documents/OpenGL/test_1/main.cpp
 iostream
 -
+GL/glew.h
+-
+GLFW/glfw3.h
+-
 
