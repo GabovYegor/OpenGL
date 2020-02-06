@@ -1,0 +1,3 @@
+/home/egor/Documents/OpenGL/setUpOpenGL/build/CMakeFiles/rebuild_cache.dir
+/home/egor/Documents/OpenGL/setUpOpenGL/build/CMakeFiles/openGL.dir
+/home/egor/Documents/OpenGL/setUpOpenGL/build/CMakeFiles/edit_cache.dir
