@@ -1,1 +1,0 @@
-/usr/bin/g++    -rdynamic CMakeFiles/lib1.dir/dir/helloworld.o  -o lib1 

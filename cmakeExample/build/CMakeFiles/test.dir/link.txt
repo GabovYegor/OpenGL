@@ -1,1 +1,0 @@
-/usr/bin/g++    -rdynamic CMakeFiles/test.dir/test.o  -o test liblib.a 
