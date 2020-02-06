@@ -1,0 +1,4 @@
+/home/egor/Documents/OpenGL/test_1/build/CMakeFiles/rebuild_cache.dir
+/home/egor/Documents/OpenGL/test_1/build/CMakeFiles/edit_cache.dir
+/home/egor/Documents/OpenGL/test_1/build/CMakeFiles/lib.dir
+/home/egor/Documents/OpenGL/test_1/build/CMakeFiles/test.dir
