@@ -8,8 +8,13 @@
 #include <GLFW/glfw3.h>
 
 
-// Function prototypes
-void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
+// Is called whenever a key is pressed/released via GLFW
+void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode)
+{
+    std::cout << key << std::endl;
+    if (key == GLFW_KEY_ENTER && action == GLFW_PRESS)
+        glfwSetWindowShouldClose(window, GL_TRUE);
+}
 
 // Window dimensions
 const GLuint WIDTH = 800, HEIGHT = 600;
@@ -60,7 +65,7 @@ int main()
 
         // Render
         // Clear the colorbuffer
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClearColor(0.2f, 0.8f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
         // Swap the screen buffers
@@ -72,10 +77,4 @@ int main()
     return 0;
 }
 
-// Is called whenever a key is pressed/released via GLFW
-void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode)
-{
-    std::cout << key << std::endl;
-    if (key == GLFW_KEY_ENTER && action == GLFW_PRESS)
-        glfwSetWindowShouldClose(window, GL_TRUE);
-}
+
