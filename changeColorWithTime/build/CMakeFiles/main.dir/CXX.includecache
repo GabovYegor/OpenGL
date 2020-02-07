@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/egor/Documents/OpenGL/changeColorWithTime/main.cpp
+iostream
+-
+cmath
+-
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+

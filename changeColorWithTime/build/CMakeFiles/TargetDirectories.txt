@@ -1,0 +1,3 @@
+/home/egor/Documents/OpenGL/changeColorWithTime/build/CMakeFiles/rebuild_cache.dir
+/home/egor/Documents/OpenGL/changeColorWithTime/build/CMakeFiles/main.dir
+/home/egor/Documents/OpenGL/changeColorWithTime/build/CMakeFiles/edit_cache.dir

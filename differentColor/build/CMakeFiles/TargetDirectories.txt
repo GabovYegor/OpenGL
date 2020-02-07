@@ -1,0 +1,3 @@
+/home/egor/Documents/OpenGL/differentColor/build/CMakeFiles/rebuild_cache.dir
+/home/egor/Documents/OpenGL/differentColor/build/CMakeFiles/main.dir
+/home/egor/Documents/OpenGL/differentColor/build/CMakeFiles/edit_cache.dir
