@@ -8,7 +8,7 @@
 #include <GLFW/glfw3.h>
 
 // Other includes
-#include "Shader/Shader.h"
+#include "ShaderClass/Shader.h"
 
 
 // Function prototypes
@@ -45,7 +45,7 @@ int main()
 
 
     // Build and compile our shader program
-    Shader ourShader("/home/egor/Documents/OpenGL/shaderToDifFiles/shader.vs", "/home/egor/Documents/OpenGL/shaderToDifFiles/shader.frag");
+    Shader ourShader("/home/egor/Documents/OpenGL/shaderToDifFiles/shaders/shader.vs", "/home/egor/Documents/OpenGL/shaderToDifFiles/shaders/shader.frag");
 
 
     // Set up vertex data (and buffer(s)) and attribute pointers

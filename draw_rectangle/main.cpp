@@ -57,7 +57,6 @@ int main()
     glfwGetFramebufferSize(window, &width, &height);
     glViewport(0, 0, width, height);
 
-
     // Build and compile our shader program
     // Vertex shader
     GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);

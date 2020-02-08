@@ -1,4 +1,4 @@
-project(changeColor)
+project(diffColor)
 set(LIBS glfw GL GLEW)
 
 add_executable(main main.cpp)

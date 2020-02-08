@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cmath>
+#include <thread>
+#include <chrono>
 
 // GLEW
 #define GLEW_STATIC
@@ -126,6 +128,7 @@ int main()
     // Game loop
     while (!glfwWindowShouldClose(window))
     {
+        std::this_thread::sleep_for(std::chrono::microseconds(1000000));
         // Check if any events have been activiated (key pressed, mouse moved etc.) and call corresponding response functions
         glfwPollEvents();
 

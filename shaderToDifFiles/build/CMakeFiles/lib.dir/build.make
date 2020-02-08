@@ -57,38 +57,38 @@ include CMakeFiles/lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lib.dir/flags.make
 
-CMakeFiles/lib.dir/Shader/Shader.cpp.o: CMakeFiles/lib.dir/flags.make
-CMakeFiles/lib.dir/Shader/Shader.cpp.o: ../Shader/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egor/Documents/OpenGL/shaderToDifFiles/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lib.dir/Shader/Shader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Shader/Shader.cpp.o -c /home/egor/Documents/OpenGL/shaderToDifFiles/Shader/Shader.cpp
+CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o: CMakeFiles/lib.dir/flags.make
+CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o: ../ShaderClass/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egor/Documents/OpenGL/shaderToDifFiles/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o -c /home/egor/Documents/OpenGL/shaderToDifFiles/ShaderClass/Shader.cpp
 
-CMakeFiles/lib.dir/Shader/Shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Shader/Shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egor/Documents/OpenGL/shaderToDifFiles/Shader/Shader.cpp > CMakeFiles/lib.dir/Shader/Shader.cpp.i
+CMakeFiles/lib.dir/ShaderClass/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/ShaderClass/Shader.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egor/Documents/OpenGL/shaderToDifFiles/ShaderClass/Shader.cpp > CMakeFiles/lib.dir/ShaderClass/Shader.cpp.i
 
-CMakeFiles/lib.dir/Shader/Shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Shader/Shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egor/Documents/OpenGL/shaderToDifFiles/Shader/Shader.cpp -o CMakeFiles/lib.dir/Shader/Shader.cpp.s
+CMakeFiles/lib.dir/ShaderClass/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/ShaderClass/Shader.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egor/Documents/OpenGL/shaderToDifFiles/ShaderClass/Shader.cpp -o CMakeFiles/lib.dir/ShaderClass/Shader.cpp.s
 
-CMakeFiles/lib.dir/Shader/Shader.cpp.o.requires:
+CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o.requires:
 
-.PHONY : CMakeFiles/lib.dir/Shader/Shader.cpp.o.requires
+.PHONY : CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o.requires
 
-CMakeFiles/lib.dir/Shader/Shader.cpp.o.provides: CMakeFiles/lib.dir/Shader/Shader.cpp.o.requires
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Shader/Shader.cpp.o.provides.build
-.PHONY : CMakeFiles/lib.dir/Shader/Shader.cpp.o.provides
+CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o.provides: CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o.provides.build
+.PHONY : CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o.provides
 
-CMakeFiles/lib.dir/Shader/Shader.cpp.o.provides.build: CMakeFiles/lib.dir/Shader/Shader.cpp.o
+CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o.provides.build: CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o
 
 
 # Object files for target lib
 lib_OBJECTS = \
-"CMakeFiles/lib.dir/Shader/Shader.cpp.o"
+"CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o"
 
 # External object files for target lib
 lib_EXTERNAL_OBJECTS =
 
-liblib.a: CMakeFiles/lib.dir/Shader/Shader.cpp.o
+liblib.a: CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o
 liblib.a: CMakeFiles/lib.dir/build.make
 liblib.a: CMakeFiles/lib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egor/Documents/OpenGL/shaderToDifFiles/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblib.a"
@@ -100,7 +100,7 @@ CMakeFiles/lib.dir/build: liblib.a
 
 .PHONY : CMakeFiles/lib.dir/build
 
-CMakeFiles/lib.dir/requires: CMakeFiles/lib.dir/Shader/Shader.cpp.o.requires
+CMakeFiles/lib.dir/requires: CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o.requires
 
 .PHONY : CMakeFiles/lib.dir/requires
 

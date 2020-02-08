@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/egor/Documents/OpenGL/shaderToDifFiles/Shader/Shader.h
+/home/egor/Documents/OpenGL/shaderToDifFiles/ShaderClass/Shader.h
 string
 -
 fstream
@@ -25,6 +25,6 @@ GL/glew.h
 -
 GLFW/glfw3.h
 -
-Shader/Shader.h
-/home/egor/Documents/OpenGL/shaderToDifFiles/Shader/Shader.h
+ShaderClass/Shader.h
+/home/egor/Documents/OpenGL/shaderToDifFiles/ShaderClass/Shader.h
 

@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lib
-
-# Build rule for target.
-lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lib
-.PHONY : lib
-
-# fast build rule for target.
-lib/fast:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
-.PHONY : lib/fast
-
-#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -136,32 +123,45 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-Shader/Shader.o: Shader/Shader.cpp.o
+#=============================================================================
+# Target rules for targets named lib
 
-.PHONY : Shader/Shader.o
+# Build rule for target.
+lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lib
+.PHONY : lib
+
+# fast build rule for target.
+lib/fast:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
+.PHONY : lib/fast
+
+ShaderClass/Shader.o: ShaderClass/Shader.cpp.o
+
+.PHONY : ShaderClass/Shader.o
 
 # target to build an object file
-Shader/Shader.cpp.o:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Shader/Shader.cpp.o
-.PHONY : Shader/Shader.cpp.o
+ShaderClass/Shader.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o
+.PHONY : ShaderClass/Shader.cpp.o
 
-Shader/Shader.i: Shader/Shader.cpp.i
+ShaderClass/Shader.i: ShaderClass/Shader.cpp.i
 
-.PHONY : Shader/Shader.i
+.PHONY : ShaderClass/Shader.i
 
 # target to preprocess a source file
-Shader/Shader.cpp.i:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Shader/Shader.cpp.i
-.PHONY : Shader/Shader.cpp.i
+ShaderClass/Shader.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ShaderClass/Shader.cpp.i
+.PHONY : ShaderClass/Shader.cpp.i
 
-Shader/Shader.s: Shader/Shader.cpp.s
+ShaderClass/Shader.s: ShaderClass/Shader.cpp.s
 
-.PHONY : Shader/Shader.s
+.PHONY : ShaderClass/Shader.s
 
 # target to generate assembly for a file
-Shader/Shader.cpp.s:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Shader/Shader.cpp.s
-.PHONY : Shader/Shader.cpp.s
+ShaderClass/Shader.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ShaderClass/Shader.cpp.s
+.PHONY : ShaderClass/Shader.cpp.s
 
 main.o: main.cpp.o
 
@@ -197,12 +197,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... lib"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... Shader/Shader.o"
-	@echo "... Shader/Shader.i"
-	@echo "... Shader/Shader.s"
+	@echo "... lib"
+	@echo "... ShaderClass/Shader.o"
+	@echo "... ShaderClass/Shader.i"
+	@echo "... ShaderClass/Shader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

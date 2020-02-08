@@ -6,5 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/egor/Documents/OpenGL/shaderToDifFiles/Shader/Shader.cpp
+/home/egor/Documents/OpenGL/shaderToDifFiles/ShaderClass/Shader.cpp
+Shader.h
+/home/egor/Documents/OpenGL/shaderToDifFiles/ShaderClass/Shader.h
+
+/home/egor/Documents/OpenGL/shaderToDifFiles/ShaderClass/Shader.h
+string
+-
+fstream
+-
+sstream
+-
+iostream
+-
+GL/glew.h
+-
 

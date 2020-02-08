@@ -60,43 +60,6 @@ CMAKE_SOURCE_DIR = /home/egor/Documents/OpenGL/shaderToDifFiles
 CMAKE_BINARY_DIR = /home/egor/Documents/OpenGL/shaderToDifFiles/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/lib.dir
-
-# All Build rule for target.
-CMakeFiles/lib.dir/all:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/depend
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egor/Documents/OpenGL/shaderToDifFiles/build/CMakeFiles --progress-num=1,2 "Built target lib"
-.PHONY : CMakeFiles/lib.dir/all
-
-# Include target in all.
-all: CMakeFiles/lib.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/Documents/OpenGL/shaderToDifFiles/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/Documents/OpenGL/shaderToDifFiles/build/CMakeFiles 0
-.PHONY : CMakeFiles/lib.dir/rule
-
-# Convenience name for target.
-lib: CMakeFiles/lib.dir/rule
-
-.PHONY : lib
-
-# clean rule for target.
-CMakeFiles/lib.dir/clean:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/clean
-.PHONY : CMakeFiles/lib.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/lib.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
@@ -130,6 +93,43 @@ CMakeFiles/main.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lib.dir
+
+# All Build rule for target.
+CMakeFiles/lib.dir/all:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/depend
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egor/Documents/OpenGL/shaderToDifFiles/build/CMakeFiles --progress-num=1,2 "Built target lib"
+.PHONY : CMakeFiles/lib.dir/all
+
+# Include target in all.
+all: CMakeFiles/lib.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/Documents/OpenGL/shaderToDifFiles/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/Documents/OpenGL/shaderToDifFiles/build/CMakeFiles 0
+.PHONY : CMakeFiles/lib.dir/rule
+
+# Convenience name for target.
+lib: CMakeFiles/lib.dir/rule
+
+.PHONY : lib
+
+# clean rule for target.
+CMakeFiles/lib.dir/clean:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/clean
+.PHONY : CMakeFiles/lib.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/lib.dir/clean
 
 .PHONY : clean
 

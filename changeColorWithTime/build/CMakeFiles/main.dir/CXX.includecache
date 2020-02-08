@@ -11,6 +11,10 @@ iostream
 -
 cmath
 -
+thread
+-
+chrono
+-
 GL/glew.h
 -
 GLFW/glfw3.h
