@@ -124,6 +124,19 @@ CameraClass/fast:
 .PHONY : CameraClass/fast
 
 #=============================================================================
+# Target rules for targets named functions
+
+# Build rule for target.
+functions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 functions
+.PHONY : functions
+
+# fast build rule for target.
+functions/fast:
+	$(MAKE) -f CMakeFiles/functions.dir/build.make CMakeFiles/functions.dir/build
+.PHONY : functions/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -203,6 +216,33 @@ ShaderClass/Shader.cpp.s:
 	$(MAKE) -f CMakeFiles/ShaderClass.dir/build.make CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.s
 .PHONY : ShaderClass/Shader.cpp.s
 
+functions.o: functions.cpp.o
+
+.PHONY : functions.o
+
+# target to build an object file
+functions.cpp.o:
+	$(MAKE) -f CMakeFiles/functions.dir/build.make CMakeFiles/functions.dir/functions.cpp.o
+.PHONY : functions.cpp.o
+
+functions.i: functions.cpp.i
+
+.PHONY : functions.i
+
+# target to preprocess a source file
+functions.cpp.i:
+	$(MAKE) -f CMakeFiles/functions.dir/build.make CMakeFiles/functions.dir/functions.cpp.i
+.PHONY : functions.cpp.i
+
+functions.s: functions.cpp.s
+
+.PHONY : functions.s
+
+# target to generate assembly for a file
+functions.cpp.s:
+	$(MAKE) -f CMakeFiles/functions.dir/build.make CMakeFiles/functions.dir/functions.cpp.s
+.PHONY : functions.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -239,6 +279,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... CameraClass"
 	@echo "... edit_cache"
+	@echo "... functions"
 	@echo "... main"
 	@echo "... ShaderClass"
 	@echo "... CameraClass/Camera.o"
@@ -247,6 +288,9 @@ help:
 	@echo "... ShaderClass/Shader.o"
 	@echo "... ShaderClass/Shader.i"
 	@echo "... ShaderClass/Shader.s"
+	@echo "... functions.o"
+	@echo "... functions.i"
+	@echo "... functions.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

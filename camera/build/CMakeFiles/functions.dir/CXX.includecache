@@ -16,17 +16,9 @@ glm/glm.hpp
 glm/gtc/matrix_transform.hpp
 -
 
-/home/egor/Documents/OpenGL/camera/ShaderClass/Shader.h
-string
--
-fstream
--
-sstream
--
-iostream
--
-GL/glew.h
--
+/home/egor/Documents/OpenGL/camera/functions.cpp
+functions.h
+/home/egor/Documents/OpenGL/camera/functions.h
 
 /home/egor/Documents/OpenGL/camera/functions.h
 GL/glew.h
@@ -41,14 +33,4 @@ vector
 -
 CameraClass/Camera.h
 /home/egor/Documents/OpenGL/camera/CameraClass/Camera.h
-
-/home/egor/Documents/OpenGL/camera/main.cpp
-algorithm
--
-ShaderClass/Shader.h
-/home/egor/Documents/OpenGL/camera/ShaderClass/Shader.h
-glm/gtc/type_ptr.hpp
--
-functions.h
-/home/egor/Documents/OpenGL/camera/functions.h
 

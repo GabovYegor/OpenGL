@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/egor/Documents/OpenGL/camera/functions.cpp
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+string
+-
+SOIL.h
+-
+

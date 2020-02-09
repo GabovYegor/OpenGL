@@ -4,8 +4,7 @@ void Shader::checkSuccessCompile(GLuint shader){
     GLint success;
     GLchar infoLog[512];
     glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
-    if (!success)
-    {
+    if (!success) {
         glGetShaderInfoLog(shader, 512, NULL, infoLog);
         std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n" << infoLog << std::endl;
     }
@@ -15,8 +14,7 @@ void Shader::checkSuccessLink() {
     GLint success;
     GLchar infoLog[512];
     glGetProgramiv(this->Program, GL_LINK_STATUS, &success);
-    if (!success)
-    {
+    if (!success) {
         glGetProgramInfoLog(this->Program, 512, NULL, infoLog);
         std::cout << "ERROR::SHADER::PROGRAM::LINKING_FAILED\n" << infoLog << std::endl;
     }
@@ -47,8 +45,7 @@ Shader::Shader (const GLchar* vertexPath, const GLchar* fragmentPath) {
     // ensures ifstream objects can throw exceptions:
     vShaderFile.exceptions (std::ifstream::badbit);
     fShaderFile.exceptions (std::ifstream::badbit);
-    try
-    {
+    try {
         // Open files
         vShaderFile.open(vertexPath);
         fShaderFile.open(fragmentPath);
@@ -63,8 +60,7 @@ Shader::Shader (const GLchar* vertexPath, const GLchar* fragmentPath) {
         vertexCode = vShaderStream.str();
         fragmentCode = fShaderStream.str();
     }
-    catch (std::ifstream::failure e)
-    {
+    catch (std::ifstream::failure e) {
         std::cout << "ERROR::SHADER::FILE_NOT_SUCCESFULLY_READ" << std::endl;
     }
     const GLchar* vShaderCode = vertexCode.c_str();

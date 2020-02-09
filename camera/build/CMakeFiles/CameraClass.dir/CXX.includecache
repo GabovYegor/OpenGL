@@ -7,4 +7,18 @@
 #IncludeRegexTransform: 
 
 /home/egor/Documents/OpenGL/camera/CameraClass/Camera.cpp
+Camera.h
+/home/egor/Documents/OpenGL/camera/CameraClass/Camera.h
+iostream
+-
+
+/home/egor/Documents/OpenGL/camera/CameraClass/Camera.h
+vector
+-
+GL/glew.h
+-
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
 

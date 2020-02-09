@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/egor/Documents/OpenGL/rotationCubes/ShaderClass/Shader.cpp" "/home/egor/Documents/OpenGL/rotationCubes/build/CMakeFiles/lib.dir/ShaderClass/Shader.cpp.o"
+  "/home/egor/Documents/OpenGL/camera/functions.cpp" "/home/egor/Documents/OpenGL/camera/build/CMakeFiles/functions.dir/functions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

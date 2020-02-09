@@ -3,5 +3,6 @@
 
 CMakeFiles/main.dir/main.cpp.o: ../CameraClass/Camera.h
 CMakeFiles/main.dir/main.cpp.o: ../ShaderClass/Shader.h
+CMakeFiles/main.dir/main.cpp.o: ../functions.h
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
 

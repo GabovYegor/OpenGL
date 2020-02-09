@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/egor/Documents/OpenGL/camera/main.cpp" "/home/egor/Documents/OpenGL/camera/build/CMakeFiles/main.dir/main.cpp.o"
+  "/home/egor/Documents/OpenGL/camera/functions.cpp" "/home/egor/Documents/OpenGL/camera/build/CMakeFiles/fun.dir/functions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,9 +14,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/egor/Documents/OpenGL/camera/build/CMakeFiles/functions.dir/DependInfo.cmake"
-  "/home/egor/Documents/OpenGL/camera/build/CMakeFiles/ShaderClass.dir/DependInfo.cmake"
-  "/home/egor/Documents/OpenGL/camera/build/CMakeFiles/CameraClass.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

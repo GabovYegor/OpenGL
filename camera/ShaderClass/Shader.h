@@ -8,8 +8,7 @@
 
 #include <GL/glew.h>
 
-class Shader
-{
+class Shader {
 public:
     GLuint Program;
     Shader(const GLchar* vertexPath, const GLchar* fragmentPath);

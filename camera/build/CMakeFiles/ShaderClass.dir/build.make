@@ -60,15 +60,15 @@ include CMakeFiles/ShaderClass.dir/flags.make
 CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.o: CMakeFiles/ShaderClass.dir/flags.make
 CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.o: ../ShaderClass/Shader.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egor/Documents/OpenGL/camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.o -c /home/egor/Documents/OpenGL/camera/ShaderClass/Shader.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.o -c /home/egor/Documents/OpenGL/camera/ShaderClass/Shader.cpp
 
 CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egor/Documents/OpenGL/camera/ShaderClass/Shader.cpp > CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egor/Documents/OpenGL/camera/ShaderClass/Shader.cpp > CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.i
 
 CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egor/Documents/OpenGL/camera/ShaderClass/Shader.cpp -o CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egor/Documents/OpenGL/camera/ShaderClass/Shader.cpp -o CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.s
 
 CMakeFiles/ShaderClass.dir/ShaderClass/Shader.cpp.o.requires:
 
