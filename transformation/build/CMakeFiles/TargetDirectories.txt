@@ -1,0 +1,4 @@
+/home/egor/Documents/OpenGL/transformation/build/CMakeFiles/rebuild_cache.dir
+/home/egor/Documents/OpenGL/transformation/build/CMakeFiles/edit_cache.dir
+/home/egor/Documents/OpenGL/transformation/build/CMakeFiles/main.dir
+/home/egor/Documents/OpenGL/transformation/build/CMakeFiles/lib.dir
