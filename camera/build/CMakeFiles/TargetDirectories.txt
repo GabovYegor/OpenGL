@@ -1,0 +1,5 @@
+/home/egor/Documents/OpenGL/camera/build/CMakeFiles/rebuild_cache.dir
+/home/egor/Documents/OpenGL/camera/build/CMakeFiles/CameraClass.dir
+/home/egor/Documents/OpenGL/camera/build/CMakeFiles/edit_cache.dir
+/home/egor/Documents/OpenGL/camera/build/CMakeFiles/main.dir
+/home/egor/Documents/OpenGL/camera/build/CMakeFiles/ShaderClass.dir

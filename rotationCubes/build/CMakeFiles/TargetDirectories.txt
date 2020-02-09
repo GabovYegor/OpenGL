@@ -1,0 +1,4 @@
+/home/egor/Documents/OpenGL/rotationCubes/build/CMakeFiles/rebuild_cache.dir
+/home/egor/Documents/OpenGL/rotationCubes/build/CMakeFiles/edit_cache.dir
+/home/egor/Documents/OpenGL/rotationCubes/build/CMakeFiles/main.dir
+/home/egor/Documents/OpenGL/rotationCubes/build/CMakeFiles/lib.dir

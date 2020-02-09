@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.10)
+project(changeColor)
+set(LIBS glfw GL GLEW SOIL)
+set(SHADER_DIR ShaderClass)
+set(CAMERA_DIR CameraClass)
+
+add_executable(main main.cpp)
+add_library(ShaderClass ${SHADER_DIR}/Shader.cpp ${SHADER_DIR}/Shader.h)
+add_library(CameraClass ${CAMERA_DIR}/Camera.cpp ${CAMERA_DIR}/Camera.h)
+target_link_libraries(main ShaderClass CameraClass ${LIBS})
