@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/egor/Documents/OpenGL/severalTexture/ShaderClass/Shader.cpp
+Shader.h
+/home/egor/Documents/OpenGL/severalTexture/ShaderClass/Shader.h
+
+/home/egor/Documents/OpenGL/severalTexture/ShaderClass/Shader.h
+string
+-
+fstream
+-
+sstream
+-
+iostream
+-
+GL/glew.h
+-
+
