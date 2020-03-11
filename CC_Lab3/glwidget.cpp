@@ -1,6 +1,7 @@
 #include "glwidget.h"
 
 #include <cmath>
+#include <iostream>
 
 double computeLength( const QPointF& lhs, const QPointF& rhs ) {
     return sqrt( pow(lhs.x() - rhs.x(), 2) + pow(lhs.y() - rhs.y(), 2) );
@@ -21,12 +22,13 @@ std::tuple <QPointF, QPointF, QPointF> findStartPoint( const Triangle& triangle 
 }
 
 
-void glView::drawLogic(const Triangle& triangle, int reqursionDeep, int test) {
-    if(reqursionDeep >= 5)
+void glView::drawLogic(const Triangle& triangle, int reqursionDeep, int isOdd) {
+    if(reqursionDeep >= iterationNumber)
         return;
 
     if(reqursionVecHelper < reqursionDeep) {
         reqursionVec.clear();
+        tempVec.clear();
         ++reqursionVecHelper;
     }
 
@@ -71,29 +73,16 @@ void glView::drawLogic(const Triangle& triangle, int reqursionDeep, int test) {
     glVertex2i(computedPoint_2.x(), computedPoint_2.y());
     glEnd();
 
-//    if(reqursionVecHelper == reqursionDeep) {
-//        if(test) {
-//            reqursionVec.push_back(medianRSPoint);
-//            reqursionVec.push_back(medianPoint);
-//            reqursionVec.push_back(medianLSPoint);
-//        }
-//        else {
-//            reqursionVec.push_back(medianLSPoint);
-//            reqursionVec.push_back(medianPoint);
-//            reqursionVec.push_back(medianRSPoint);
-//        }
-//    }
-
     if(reqursionVecHelper == reqursionDeep) {
-        if(test) {
-            tempVec.push_back(medianRSPoint);
-            tempVec.push_back(medianPoint);
-            tempVec.push_back(medianLSPoint);
+        if(isOdd) {
+            reqursionVec.push_back(medianRSPoint);
+            reqursionVec.push_back(medianPoint);
+            reqursionVec.push_back(medianLSPoint);
         }
         else {
-            tempVec.push_back(medianLSPoint);
-            tempVec.push_back(medianPoint);
-            tempVec.push_back(medianRSPoint);
+            reqursionVec.push_back(medianLSPoint);
+            reqursionVec.push_back(medianPoint);
+            reqursionVec.push_back(medianRSPoint);
         }
     }
 
@@ -101,12 +90,12 @@ void glView::drawLogic(const Triangle& triangle, int reqursionDeep, int test) {
     drawLogic(Triangle(midPoint, computedPoint_1, computedPoint_2), reqursionDeep + 1, 0);
     drawLogic(Triangle(computedPoint_2, computedPoint_1, minPoint), reqursionDeep + 1, 1);
 
-    // если test == 0 перевернуть и засунуть в нормальный вектор + это если на предпоследнем уровне
-    // reqursionDeep == reqursionVecHelper - 1
-    //std::move(tempVec.begin(), tempVec.end(), reqursionVec.end());
-    for(const auto& it: tempVec)
-        reqursionVec.push_back(it);
-    tempVec.clear();
+    for(int i = iterationNumber - 2; i > 0; --i) {
+        if(reqursionDeep == i) {
+            if(!isOdd)
+                std::reverse(reqursionVec.end() - pow(3, iterationNumber - i), reqursionVec.end());
+        }
+    }
 }
 
 void glView::paintGL() {
