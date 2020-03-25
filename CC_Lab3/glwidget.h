@@ -21,7 +21,7 @@ private:
     void drawLogic(const Triangle &triangle, int reqursionDeep, int test);
     int reqursionDeep;
     int reqursionVecHelper;
-    int iterationNumber = 3;
+    int iterationNumber = 2;
     std::vector <QPointF> reqursionVec;
     std::vector <QPointF> tempVec;
 };
